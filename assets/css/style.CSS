@@ -1,0 +1,132 @@
+body{
+  padding:0;
+  margin:0;
+  background-color: #000;
+  }
+
+  @media(max-width:450px){
+    .box{display:none;}
+    
+    
+    
+    }
+    @media(min-width:451px) and (max-width:540px){
+      .box{display:none;}
+    
+    
+    }
+    @media(min-width:541px) and (max-width:768px){
+      
+    
+    
+    }
+    @media(min-width:769px) and (max-width:1024px){
+    
+      
+    
+    
+    }
+    @media(min-width:1025px) and (max-width:1200px){
+     
+      
+    
+    }
+    @media(min-width: 1201px){
+    
+    
+    }
+      
+
+li{
+    font-size: 40px;
+  }
+
+
+  a{
+    color: #fff;
+  }
+
+.box{
+  position:absolute;
+  top:0;
+  right:0;
+  background-color: #201C29;
+  height:800px;
+  width:800px;
+  clip-path: circle(50% at 82% 5%);
+}
+.alt-responsive{
+  position:absolute;
+  top:180px;
+  left:250px;
+}
+
+  #user{
+    color:white;
+  }
+   #linkedin{
+     color:#0077B5;
+  }
+   #twitter{
+     color:#1AB2E8;
+   }
+   #facebook{
+     color:#3A559F;
+   }
+   #instagram{
+   color: #E60E23;
+   }
+   #whatsapp{
+     color: #00E676;
+   }
+   #gmail{
+     color:#686665; 
+   }
+   #volume{
+     color:#7742f4;
+   }
+
+
+  .nav-item{
+    color:white !important;
+  }
+
+
+  .nav{
+    padding:110px 0px;
+  }
+
+
+
+  h1{
+      font-size: 20px;
+      text-align: center;
+      padding-top: 35px;
+      color:darkblue;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      background: linear-gradient(90deg, #000, #fff, #000);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: animate 1s ease-in-out infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+    
+
+    @keyframes animate {
+      0% {
+        background-position: -500%;
+        background-color: darkslateblue;
+      }
+      100% {
+        background-position: 500%;
+        background-color: slateblue ;
+      }
+      50%{
+          background-position: 200%;
+          background-color:snow; 
+      }
+    }
+  
